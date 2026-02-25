@@ -5,9 +5,8 @@ void SelectionSort(int* array, int len)
 {
 
 	for (int i = 0; i < len; ++i)
-
 	{
-
+		//ÃÖ¼Ò°ª
 		int minidx = i;
 
 
