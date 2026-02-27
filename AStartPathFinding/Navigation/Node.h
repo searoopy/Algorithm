@@ -48,10 +48,12 @@ public:
 	float gCost = 0.0f;
 
 	//이 노드에서 목표지점까지의 예상 비용(휴리스틱)
-	float fCost= 0.0f;
-
+	float hCost = 0.0f;
+	
 	//최종 비용(gcost+hcost).
-	float hCost= 0.0f;
+	float fCost = 0.0f;
+
+
 
 	//부모 노드 링크.
 	Node* parentNode = nullptr;
