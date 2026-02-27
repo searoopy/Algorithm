@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MergeSort", "MergeSort\Merg
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HeapSort", "HeapSort\HeapSort.vcxproj", "{4A38C0B0-5514-43FF-91ED-7214FFB05BD9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AStartPathFinding", "AStartPathFinding\AStartPathFinding.vcxproj", "{E6171954-E11D-4DB4-B183-EE19E316AF79}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{4A38C0B0-5514-43FF-91ED-7214FFB05BD9}.Release|x64.Build.0 = Release|x64
 		{4A38C0B0-5514-43FF-91ED-7214FFB05BD9}.Release|x86.ActiveCfg = Release|Win32
 		{4A38C0B0-5514-43FF-91ED-7214FFB05BD9}.Release|x86.Build.0 = Release|Win32
+		{E6171954-E11D-4DB4-B183-EE19E316AF79}.Debug|x64.ActiveCfg = Debug|x64
+		{E6171954-E11D-4DB4-B183-EE19E316AF79}.Debug|x64.Build.0 = Debug|x64
+		{E6171954-E11D-4DB4-B183-EE19E316AF79}.Debug|x86.ActiveCfg = Debug|Win32
+		{E6171954-E11D-4DB4-B183-EE19E316AF79}.Debug|x86.Build.0 = Debug|Win32
+		{E6171954-E11D-4DB4-B183-EE19E316AF79}.Release|x64.ActiveCfg = Release|x64
+		{E6171954-E11D-4DB4-B183-EE19E316AF79}.Release|x64.Build.0 = Release|x64
+		{E6171954-E11D-4DB4-B183-EE19E316AF79}.Release|x86.ActiveCfg = Release|Win32
+		{E6171954-E11D-4DB4-B183-EE19E316AF79}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
