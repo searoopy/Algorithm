@@ -1,6 +1,7 @@
 #include "Node.h"
+#include "QuadTree.h"
 
-Node::Node(const Bounds& bounds, int depth = 0)
+Node::Node(const Bounds& bounds, int depth )
     : bounds(bounds), depth(depth)
 {
 }
@@ -9,6 +10,8 @@ Node::~Node()
 {
     Clear();
 }
+
+
 
 void Node::Insert(Node* node)
 {
@@ -71,7 +74,8 @@ void Node::Insert(Node* node)
 
 }
 
-void Node::Query(const Bounds& bounds, std::vector<Node*>& result)
+
+void Node::Query(const Bounds& bounds, std::vector<Node*>& possibleNodes)
 {
     //현재 노드를 추가하고 이후 과정 진행.
     possibleNodes.emplace_back(this);

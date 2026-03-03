@@ -30,7 +30,7 @@ enum class NodeIndex
 	Stradding,
 	//영역을 벗어난 경우.
 	OutOfArea
-};;
+};
 
 
 //쿼드 트리를 구성하는 노드 클래스.
@@ -89,9 +89,6 @@ private:
 
 	//현재 영역에 포함된 노드(목록)
 	std::vector<Node*> points;
-
-
-	std::vector<Node*> possibleNodes;
 
 	//자식 노드(4개)
 	Node* topLeft = nullptr;
